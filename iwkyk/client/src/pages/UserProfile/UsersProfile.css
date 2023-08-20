@@ -1,0 +1,262 @@
+.user-details-conatiner
+{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.user-list-container-1
+{
+    /* padding: 30px 0px;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    
+}
+
+.user-details
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.user-name
+{
+    padding-left: 20px;
+}
+
+#light .user-name p
+{
+    color: #7e7e7e
+}
+
+#dark .user-name p{
+    color: #e4e6eb;
+}
+
+#dark .tags-bio
+{
+    color: #e4e6eb;
+}
+
+.edit-profile-btn
+{
+    padding: 8px 10px;
+    border: solid 1px #7e7e7e;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.edit-follow-btn {
+    padding: 8px 10px;
+    border: solid 1px #7e7e7e;
+    border-radius: 2px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.edit-follow-btn:hover {
+    background-color: #f5f9fc;
+}
+
+.edit-profile-btn:hover
+{
+    background-color: #f5f9fc;
+}
+
+.edit-profile-title
+{
+    padding: 20px 0px;
+    border-bottom: solid 1px #dbd9d9;
+}
+
+.edit-profile-title-2
+{
+    color: grey;
+    font-weight: 300;
+}
+
+.edit-profile-form
+{
+    padding: 20px;
+    border: solid 1px #dbd9d9;
+    border-radius: 5px;
+}
+
+#dark .edit-profile-title-2
+{
+    color: #e4e6eb;
+}
+
+#dark .edit-profile form
+{
+    background-color: rgb(22, 24, 28);
+    border: solid 1px black;
+    box-shadow: 0 10px 25px rgb(0 0 0 / 5%),
+    0 20px 48px rgb(0 0 0/ 5%),
+    0 1px 4px rgb(0 0 0/10%);
+    color: #ffffff;
+} 
+
+.edit-profile-form label h3
+{
+    margin: 0%;
+    padding: 3px 0px;
+}
+
+.edit-profile-form label input, .edit-profile-form label textarea
+{
+    padding: 5px;
+    margin-bottom: 20px;
+    border: solid 1px #dbd9d9;
+    width: 50%;
+}
+
+#dark .edit-profile-form label input,
+#dark .edit-profile-form label textarea {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+    width: 50%;
+    background-color: #192734;
+    color: #ffffff;
+}
+
+.user-submit-btn
+{
+    padding: 14px 0px;
+    background-color: #0a95ff;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding-right: 5px;
+}
+
+.user-submit-btn:hover
+{
+    background-color: #0074cc;
+}
+
+.user-cancel-btn
+{
+    padding: 14px 5px;
+    color: #0a95ff;
+    background-color: transparent;
+    border: none;
+}
+
+#dark .following
+{
+    color: #e4e6eb;
+}
+
+#dark .followers{
+    color: #e4e6eb;
+}
+
+
+.user-profile-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #D5FFD0;
+}
+
+.user-profile-links h3 {
+    padding: 10px 13px;
+    background-color: #57A773;
+    border-radius: 50%;
+}
+
+.user-profile-links h5 {
+    color: black;
+}
+
+#dark .user-profile-links h5 {
+    color: white;
+}
+
+.user-profile-links h5 {
+    margin: 0px 10px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .edit-profile-btn 
+    {
+        padding: 6px 8px;
+        border: solid 1px #7e7e7e;
+        border-radius: 2px;
+        background-color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .edit-profile-btn:hover 
+    {
+        background-color: #f5f9fc;
+    }
+
+    .user-name 
+    {
+        font-size: 12px;
+    }
+
+    .home-container-1
+    {
+        width: 100%;
+    }
+
+    .home-container-2
+    {
+        width: 100%;
+    }
+
+    .user-details-conatiner 
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tags-bio 
+    {
+        font-size: 12px;
+    }
+
+    .edit-profile
+    {
+        font-size: 12px;
+    }
+
+    .user-submit-btn {
+        padding: 10px 4px;
+        font-size: 12px;
+        background-color: #0a95ff;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        padding-right: 5px;
+    }
+
+    .user-profile-links h5 {
+        font-size: 12px;
+    }
+
+    .user-profile-links h3 {
+        font-size: 12px;
+    }
+
+    .user-list-container-1 {
+        /* padding: 30px 0px;*/
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 10px;
+
+    }
+}
